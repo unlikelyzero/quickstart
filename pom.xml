@@ -32,6 +32,12 @@
       <artifactId>yamcs-web</artifactId>
       <version>${yamcsVersion}</version>
     </dependency>
+    <!-- Add the yamcs-prometheus dependency -->
+    <dependency>
+      <groupId>org.yamcs</groupId>
+      <artifactId>yamcs-prometheus</artifactId>
+      <version>${yamcsVersion}</version>
+    </dependency>
   </dependencies>
 
   <build>
